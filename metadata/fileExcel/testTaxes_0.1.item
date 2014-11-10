@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_bFWicVC9EeS01IlCWbpLrA" name="testTaxes" dataPackage="_bFXJgFC9EeS01IlCWbpLrA" Server="Localhost 127.0.0.1" FilePath="/Users/wdrussell/Documents/talendWorkspace/state_unemp_rate.xls" Encoding="UTF-8" UseHeader="true" HeaderValue="5" FooterValue="0" LimitValue="" FirstLineCaption="true" SheetName="2013" firstColumn="1" lastColumn="" thousandSeparator="," decimalSeparator="." sheetList="2013:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_bFXJgFC9EeS01IlCWbpLrA" name="default" dataManager="_bFWicVC9EeS01IlCWbpLrA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_bFXJgVC9EeS01IlCWbpLrA" id="_RxdAEFC7EeS01IlCWbpLrA" label="UnemploymentTaxRates">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bFXJglC9EeS01IlCWbpLrA" label="State" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="50"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bFXJg1C9EeS01IlCWbpLrA" label="Wages_Subject_to_Tax" length="46" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bFXJhFC9EeS01IlCWbpLrA" label="Minimum_Rate__1_" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bFXJhVC9EeS01IlCWbpLrA" label="Maximum_Rate__1_" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bFXJhlC9EeS01IlCWbpLrA" label="New_Employer_Rate__2_" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
